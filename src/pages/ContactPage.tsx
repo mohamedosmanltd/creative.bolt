@@ -29,7 +29,7 @@ export default function ContactPage() {
 
   const contacts = [
     { icon: Phone, label: t('contact.phone'), value: '+20111164118', href: 'tel:+20111164118' },
-    { icon: Mail, label: t('contact.email'), value: 'info@creative-realestate.com', href: 'mailto:info@creative-realestate.com' },
+    { icon: Mail, label: t('contact.email'), value: 'info@creativerealestateltd.com', href: 'mailto:info@creativerealestateltd.com' },
     { icon: MapPin, label: t('36 Gesr El Suez Street, El Nozha, Cairo, Egypt'), value: t('36 Gesr El Suez Street, El Nozha, Cairo, Egypt'), href: '#' },
     { icon: Clock, label: lang === 'ar' ? 'ساعات العمل' : 'Working Hours', value: lang === 'ar' ? 'السبت - الخميس: 9ص - 6م' : 'Sat - Thu: 9AM - 6PM', href: '#' },
   ]
