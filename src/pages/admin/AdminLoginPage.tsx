@@ -104,7 +104,7 @@ export default function AdminLoginPage() {
                     value={email}
                     onChange={(e) => { setEmail(e.target.value); setError(false) }}
                     className={inputClass}
-                    placeholder="admin@creative-re.com"
+                    
                     required
                   />
                 </div>
@@ -140,10 +140,7 @@ export default function AdminLoginPage() {
               </button>
             </form>
 
-            <div className="mt-6 p-4 rounded-lg bg-primary-50 text-xs text-primary-700">
-              <p className="font-semibold mb-1">{lang === 'ar' ? 'بيانات الدخول التجريبية:' : 'Demo credentials:'}</p>
-              <p dir="ltr">admin@creative-re.com / admin123</p>
-            </div>
+
           </div>
         </div>
       </div>
