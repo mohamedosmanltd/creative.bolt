@@ -82,7 +82,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary-400 mt-0.5 flex-shrink-0" />
-                <span className="text-sm text-neutral-300">{t('contact.addressValue')}</span>
+                <span className="text-sm text-neutral-300">{t('test')}</span>
               </li>
             </ul>
           </div>
