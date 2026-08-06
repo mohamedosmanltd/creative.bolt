@@ -2,8 +2,8 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from '
 
 // Simple admin auth using localStorage (demo credentials)
 const ADMIN_CREDENTIALS = {
-  email: 'admin@creative-re.com',
-  password: 'admin123',
+  email: 'engmohamedsultan5@gmail.com',
+  password: '$Eyan910289$',
 }
 
 const STORAGE_KEY = 'cre_admin_session'
